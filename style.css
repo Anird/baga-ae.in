@@ -1,0 +1,410 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #ff6408;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 40px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 12px;
+    width: 40%;
+    max-width: 400px;
+    border: none;
+}
+.search-container button {
+    padding: 12px 18px;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.search-container i{
+    color: #777;
+}
+
+.search-container button:hover {
+    background-color: #777;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    background-color: #e67b33;
+}
+.categories-dropdown {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.categories-btn {
+    padding: 12px 16px;
+    background-color: #555;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.categories-btn i {
+    margin-right: 8px;
+    color: #555;
+}
+
+.categories-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.categories-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.categories-content a:hover {
+    background-color: #777;
+}
+
+.categories-dropdown:hover .categories-content {
+    display: block;
+}
+
+.categories-btn:hover {
+    background-color: #777;
+}
+.categories-list{
+    display: flex;
+    color: #000;
+    background-color: #ffe8de;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.categories-list div{
+    padding: 10px 15px;
+}
+.banner-img h1{
+    font-size: 55px;
+    color: #ff6408;
+}
+.banner-img p{
+    font-size: 20px;
+}
+.banner-img{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content:center ;
+}
+.banner-content{
+    padding: 80px 120px 80px 0px;
+}
+.banner-content button{
+    margin-top: 25px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ff6408;
+    color: #ffffff;
+}
+.banner-img img{
+    height: 400px;
+    float: right;
+    align-items: end;
+    text-align: right;
+    justify-content: right;
+    display: flex;
+}
+.category{
+    text-align: center;
+    padding: 50px;
+}
+.category h2{
+    color: #ff6408;
+    font-weight: 500;
+    padding: 26px 10px;
+}
+.category-img{
+    display: flex;
+}
+.category-img  img{
+    height: 160px;
+    padding: 20px;
+}
+.image div{
+ position: relative;
+}
+.seller-sec {
+text-align: center;
+}
+.seller-sec h2{
+    color: #555;
+    padding: 20px;
+    font-weight: 500;
+}
+.sellers-img{
+    display: flex;
+    justify-content: center;
+}
+.sellers-img div{
+    border: solid #555;
+    padding: 5px;
+    margin: 10px;
+}
+.sellers-img img{
+    height: 250px;
+    padding: 15px;
+}
+.tabby-sec{
+    display: flex;
+    justify-content: center;
+}
+.tabby-sec img{
+    padding: 20px;
+    height: 150px;
+}
+.ud-products h2{
+    display: flex;
+    color: #555;
+    font-weight: 500;
+    padding: 20px;
+    justify-content: center;
+}
+.ad-img-1 img{
+    margin: 10px;
+    height: 424px;
+}
+.ad-img-2 img{
+    margin: 10px;
+    height: 200px;
+}
+.ad-img-3 img{
+    margin: 10px;
+    height: 204px;
+}
+
+.works-head h2{
+    text-align: center;
+    color: #555;
+    font-weight: 500;
+    padding: 26px 10px;
+
+}
+.works-img{
+ display: flex;
+ justify-content: center;
+}
+.works-img .image{
+    padding: 20px;
+    text-align: center;
+}
+.Clients{
+    display: flex;
+    justify-content: center;
+   }
+.Clients .image{
+    padding: 20px;
+    text-align: center;
+}
+.Clients-head h2{
+    text-align: center;
+    color: #555;
+    font-weight: 500;
+    padding: 26px 10px;
+
+}
+.Clients{
+ display: flex;
+ justify-content: center;
+ padding-bottom: 50px;
+}
+.Clients .image{
+    padding: 20px;
+    text-align: center;
+}
+.Clients img{
+    height: 36px;
+}
+footer{
+    background-color: #cec9c9;
+}
+footer form{
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding-top: 40px;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.footer-newsletter {
+    width: 35%;
+}
+
+.footer-newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    text-align: right;
+    width: 20%;
+}
+
+.footer-social h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #666;
+}
+
+.footer-bottom {
+    display: flex;
+    text-align: center;
+    background-color: #c0c0c0;
+    padding: 20px 50px;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer-content{
+    text-align:left ;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
+
+.payment-methods img {
+    width: fit-content;
+    height: 48px;
+}
+.payment-methods{
+    display: flex;
+}
